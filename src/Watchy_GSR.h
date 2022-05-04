@@ -86,6 +86,8 @@ class WatchyGSR{
         virtual bool SafeToDraw() final;
         virtual void initWatchFaceStyle();
         virtual void drawWatchFaceStyle();
+
+        int getGuiMode();
    private:
         void setStatus(String Status);
         void drawMenu();

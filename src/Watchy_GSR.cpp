@@ -3472,3 +3472,5 @@ void WatchyGSR::drawWatchFaceStyle(){
             break;
     }
 }
+
+int WatchyGSR::getGuiMode() { return GuiMode; }
